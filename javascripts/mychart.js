@@ -114,8 +114,22 @@ function myFunction(){
     document.getElementById("wordtree_explicit").style.width="100%";
 	document.getElementById("wordtree_explicit").style.marginLeft="-2%";	
 	document.body.style.overflowX="hidden";	
+	
+	
 }
-	  
+
+onresize=function x(){
+var x= window.innerWidth;
+if(x<1000)
+document.body.style.background="white";
+else
+document.body.style.background="royalblue";
+
+
+
+}
+
 onload =function(){
 document.body.style.overflowX="hidden";
+
 }
